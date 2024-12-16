@@ -6,12 +6,30 @@ body {
   padding: 0;
 }
 
-/* Header */
+/* Style untuk header container */
 .header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
+  padding: 10px;
 }
+
+/* Style untuk back icon */
+.back-icon {
+  text-decoration: none;
+  font-size: 24px; /* Ukuran icon */
+  color: #000000; /* Warna biru ikon */
+  font-weight: bold;
+}
+
+/* Style untuk judul */
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000; /* Warna hitam */
+  margin: 0;
+}
+
 
 a {
   text-decoration: none;
@@ -19,13 +37,13 @@ a {
 
 .back-icon {
   font-size: 1.5rem;
-  color: #b79ada;
+  color: #000000;
   cursor: pointer;
 }
 
 .header h1 {
   font-size: 1.8rem;
-  color: #b28ce1;
+  color: #000000;
   margin: 0;
 }
 
